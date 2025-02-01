@@ -4,11 +4,11 @@ const getStart = document.getElementById('gets');
 const joinNow = document.getElementById('joinn');
 
 getStart.addEventListener('click', function(){
-    alert('hey bro, u have clicked on the get start button!')
-    console.log('u have been clicked on the get start button!')
+    alert('Hey bro, you have clicked the "Get Started" button!');
+    console.log('You have clicked the "Get Started" button!');    
 });
 joinNow.addEventListener('click', function(){
-    alert('hey bro, u have clicked on the join now button!')
-    console.log('u have been clicked on the join now button!')
+    alert('Hey bro, you have clicked the "Join Now" button!');
+    console.log('You have clicked the "Join Now" button!');    
 });
 
