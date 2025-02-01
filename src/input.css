@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Custom Styles */
+:root {
+  --test-color: #ffffff; /* White */
+  --bgc: #ff0000; /* Red */
+  --primary: #3498db; /* Blue */
+  --secondary: #2ecc71; /* Green */
+  --accent: #f39c12; /* Orange */
+}
+
+/* Use CSS variables */
+.text-test-color {
+  color: var(--test-color);
+}
+.bg-bgc {
+  background-color: var(--bgc);
+}
+.text-primary {
+  color: var(--primary);
+}
+.text-secondary {
+  color: var(--secondary);
+}
+.text-accent {
+  color: var(--accent);
+}
